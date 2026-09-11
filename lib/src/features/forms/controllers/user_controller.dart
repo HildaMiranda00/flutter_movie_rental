@@ -6,8 +6,8 @@ class LoginController {
   final _user = signal<String>('');
 
   final _itens = signal<List<String>>([]);
-  final _savedUser = 'hilda';
-  final _savedPassword = 'aaa';
+  final _savedUser = 'jose';
+  final _savedPassword = 'admin321';
 
   String get username => _userName.value;
   String get password => _password.value;
